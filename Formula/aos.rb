@@ -1,5 +1,5 @@
-class AosCli < Formula
-  desc "Minimal CLI for running the AOS scan pipeline outside the desktop app"
+class Aos < Formula
+  desc "Agents of Shield scanning CLI"
   homepage "https://github.com/AOS-HZ/aos-cli"
   url "https://github.com/AOS-HZ/aos-cli.git",
       tag:      "v0.1.0",
