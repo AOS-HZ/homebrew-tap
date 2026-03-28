@@ -12,5 +12,5 @@ brew install --cask aos
 ## Notes
 
 - The `aos` cask currently installs a prebuilt `macOS arm64` binary package.
-- If the repositories remain private, the installing machine needs GitHub access to both
-  `AOS-HZ/homebrew-tap` and `AOS-HZ/aos-cli`.
+- If the tap repository remains private, the installing machine needs GitHub access to
+  `AOS-HZ/homebrew-tap`.
