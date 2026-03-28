@@ -11,7 +11,6 @@ brew install aos
 
 ## Notes
 
-- The `aos` formula currently builds from the `AOS-HZ/aos-cli` source repository at tag `v0.1.0`.
+- The `aos` formula currently installs a prebuilt `macOS arm64` binary package.
 - If the repositories remain private, the installing machine needs GitHub access to both
   `AOS-HZ/homebrew-tap` and `AOS-HZ/aos-cli`.
-- Homebrew users also need a working Rust toolchain because the formula builds from source.
