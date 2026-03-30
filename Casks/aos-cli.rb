@@ -1,4 +1,4 @@
-cask "aos" do
+cask "aos-cli" do
   version "0.1.0"
   sha256 "2b5859361238cc9a5fa55951c5e79b928c3f7bac1289743ff8052333015b463b"
 
