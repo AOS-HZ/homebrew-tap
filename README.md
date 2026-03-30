@@ -5,12 +5,12 @@ Homebrew tap for AOS packages.
 ## Install
 
 ```bash
-brew tap AOS-HZ/tap https://github.com/AOS-HZ/homebrew-tap.git
-brew install --cask aos
+brew tap AOS-HZ/tap
+brew install aos-cli
 ```
 
 ## Notes
 
-- The `aos` cask currently installs a prebuilt `macOS arm64` binary package.
-- If the tap repository remains private, the installing machine needs GitHub access to
-  `AOS-HZ/homebrew-tap`.
+- The `aos-cli` formula installs a prebuilt signed macOS CLI binary from GitHub Releases.
+- Apple Silicon and Intel macOS builds are published separately and selected automatically by Homebrew.
+- Tagged releases from `AOS-HZ/aos-cli` update this tap automatically when the release workflow is configured with a token that can write to this repository.
