@@ -6,12 +6,12 @@ class AosCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/AOS-HZ/aos-cli-releases/releases/download/v0.1.1/aos-0.1.1-darwin-arm64.tar.gz"
-      sha256 "cdb1ff886ca9e8cca95e182267ff6857e67bef5ac08c484dd3a168f6a74307a3"
+      sha256 "2b49bf0e336e4a5e20ec81e0ac93f27fb5219323f829895f71b12b143114ec7b"
     end
 
     on_intel do
       url "https://github.com/AOS-HZ/aos-cli-releases/releases/download/v0.1.1/aos-0.1.1-darwin-x86_64.tar.gz"
-      sha256 "2dc262198c9513fa7fc2d2b72a9cc192f800601e2b8e5316718e4d650b23f8c6"
+      sha256 "4a96308cb3ea74b4c260fe2a0956e8953157c7bffe3b052b1649afb73e617be2"
     end
   end
 
