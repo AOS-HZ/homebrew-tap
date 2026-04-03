@@ -1,17 +1,24 @@
 class AosCli < Formula
   desc "Minimal CLI for running the AOS scan pipeline outside the desktop app."
   homepage "https://github.com/AOS-HZ/aos-cli-releases"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/AOS-HZ/aos-cli-releases/releases/download/v0.1.1/aos-0.1.1-darwin-arm64.tar.gz"
-      sha256 "2b49bf0e336e4a5e20ec81e0ac93f27fb5219323f829895f71b12b143114ec7b"
+      url "https://github.com/AOS-HZ/aos-cli-releases/releases/download/v0.1.2/aos-0.1.2-darwin-arm64.tar.gz"
+      sha256 "5df39a16d9a96cadd09c875104cc3b357fb9551bd985a809cbd63d2cd0a119ca"
     end
 
     on_intel do
-      url "https://github.com/AOS-HZ/aos-cli-releases/releases/download/v0.1.1/aos-0.1.1-darwin-x86_64.tar.gz"
-      sha256 "4a96308cb3ea74b4c260fe2a0956e8953157c7bffe3b052b1649afb73e617be2"
+      url "https://github.com/AOS-HZ/aos-cli-releases/releases/download/v0.1.2/aos-0.1.2-darwin-x86_64.tar.gz"
+      sha256 "38ac67b660bd81d5426ab2c9e1e5acb7eab694a59bfaaf688e6798eceeca49b4"
+    end
+  end
+
+  on_linux do
+    on_intel do
+      url "https://github.com/AOS-HZ/aos-cli-releases/releases/download/v0.1.2/aos-0.1.2-linux-x86_64.tar.gz"
+      sha256 "99a73024725a24119b39c8a8f26eabc5c7a9990522a3f3c8b2cdcebb6a287747"
     end
   end
 

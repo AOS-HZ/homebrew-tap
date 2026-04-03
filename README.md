@@ -11,6 +11,7 @@ brew install aos-cli
 
 ## Notes
 
-- The `aos-cli` formula installs a prebuilt signed macOS CLI binary from the public `AOS-HZ/aos-cli-releases` repository.
-- Apple Silicon and Intel macOS builds are published separately and selected automatically by Homebrew.
+- The `aos-cli` formula installs a prebuilt CLI binary from the public `AOS-HZ/aos-cli-releases` repository.
+- Apple Silicon and Intel macOS builds are published separately and selected automatically by Homebrew on macOS.
+- Linux x86_64 builds are published for Homebrew on Linux.
 - Tagged releases from the private source repository update this tap automatically when the release workflow is configured with tokens that can write to `AOS-HZ/aos-cli-releases` and this repository.
