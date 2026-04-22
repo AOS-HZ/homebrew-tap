@@ -1,6 +1,6 @@
 cask "aos-desktop" do
   version "0.1.8"
-  sha256 "2859af794633cd254cb695a3b16abe07f1658477f4b62fe635162ef7ce9de56b"
+  sha256 "8bbcf328a30ea240aca76a7d7be89b12ab351f05935a08c415a1910cf2cd77ab"
 
   url "https://github.com/AOS-HZ/aos-desktop-releases/releases/download/v#{version}/Aegis_0.1.8_universal.dmg"
   name "AOS Desktop"
