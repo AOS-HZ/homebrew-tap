@@ -1,8 +1,8 @@
 cask "aos-desktop" do
-  version "0.1.8"
-  sha256 "8bbcf328a30ea240aca76a7d7be89b12ab351f05935a08c415a1910cf2cd77ab"
+  version "0.1.9"
+  sha256 "dde3889495cc4c07dbfdc1bae040884ec936263caab06a21cef718c017f7404b"
 
-  url "https://github.com/AOS-HZ/aos-desktop-releases/releases/download/v#{version}/Aegis_0.1.8_universal.dmg"
+  url "https://github.com/AOS-HZ/aos-desktop-releases/releases/download/v#{version}/Aegis_0.1.9_universal.dmg"
   name "AOS Desktop"
   desc "Desktop security workbench for AI agent scanning and runtime monitoring."
   homepage "https://github.com/AOS-HZ/aos-desktop-releases"
